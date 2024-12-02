@@ -1,4 +1,4 @@
-# 3des-encryption-with-image-steganography-on-fpga-
+# 3des-encryption-on-fpga-with-image-steganography-
 ![image](https://github.com/user-attachments/assets/750e0ae9-54ff-4bd5-8ab1-b9367c1e931a)
 
 
