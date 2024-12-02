@@ -7,4 +7,13 @@ hence: for 3des encryption-> DES encr-decr-encr with k1 and k2 respectively, whe
 PIN MAPPING:
 we have implemented it on xilinx's basys-3 fpga; since it has a limited number of switches/pins, to overcome the problem of giving a 64*3 bit input, we have used muxes, with predefined set of 64 bit inputs, and can be controlled by switches on the board (eg. 4 switches for 2^4 combinations of 64 bit input messages and so on). 
 Similarly, output can be drawn as well.
+Then, save it into a .txt file for steganography.
+we have used the LSB (least significant bit) technique for image steganography and use greyscale image for further simplicity in the rgb values (0-255).
+<img width="1175" alt="Screenshot 2024-11-27 at 10 13 45" src="https://github.com/user-attachments/assets/d8c68643-551b-421a-831c-729f90e57829">
+FUTURE SCOPE: 
+1) Automation using Putty/terminal to recieve serially transmitted output cipher
+2) Uart tx/rx for more ease of access for input and outputs
+3) Image processing ips for hardware accleration
+4) webcam integration for low res images with real time encryption
+
 
